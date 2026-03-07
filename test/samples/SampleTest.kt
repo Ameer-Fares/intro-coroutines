@@ -9,6 +9,7 @@ import kotlinx.coroutines.test.runTest
 import org.junit.Test
 
 @OptIn(ExperimentalCoroutinesApi::class)
+@Suppress("KNOWN_EXCEPTION")
 class SampleTest {
     @Test
     fun testDelayInSuspend() = runTest {
